@@ -1,0 +1,6 @@
+graft numerixpy
+include pyproject.toml
+global-exclude *.ipynb
+global-exclude __pycache__
+global-exclude *pyc
+

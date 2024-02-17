@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+	"setuptools>=54", 
+	"wheel"
+	]
+	
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numerixpy"
+
+version = "0.0.1"
+
+authors = [
+	{name = "Mersthub Mentors", email = "mersthub@gmail.com"},
+]
+
+description = "Numerical differentiation and integration in Python"
+
+readme = "README.md"
+
+requires-python = ">=3.8, <3.12"
+
+classifiers = [
+	"Development Status :: 2 - Pre-Alpha",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3.8",
+	"Topic :: Scientific/Engineering :: Mathematics",
+]
+
+license = {file = "LICENSE"}
+
+keywords = ["Differential", "integral", "numerical"]
+
+[project.urls]
+"Homepage" = "https://github.com/mcekwonu/numerixpy"
+"Bug Tracker" = "https://github.com/mcekwonu/numerixpy/issues"
+

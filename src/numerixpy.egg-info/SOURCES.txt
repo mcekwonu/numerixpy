@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/numerixpy/__init__.py
+src/numerixpy/differential.py
+src/numerixpy/integral.py
+src/numerixpy.egg-info/PKG-INFO
+src/numerixpy.egg-info/SOURCES.txt
+src/numerixpy.egg-info/dependency_links.txt
+src/numerixpy.egg-info/top_level.txt
+src/numerixpy/misc/__init__.py
+src/numerixpy/misc/square.py
+src/numerixpy/misc/timing.py
